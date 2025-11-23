@@ -10,8 +10,7 @@ function error({error , reset}:{error:Error,reset:()=>void}) {
         router.refresh();
         startTransition(()=>{
             reset();
-        });
-    }
+        }); }
   return (
     <div>
         <h1>{error.message}</h1>

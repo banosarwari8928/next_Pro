@@ -5,7 +5,7 @@ function getRnum( num:number){
 }
 function page() {
    const Rnum= getRnum(3);
-   if(Rnum<3){
+   if(Rnum<2){
     throw new Error("NOT FOUND");
    }
   return (
