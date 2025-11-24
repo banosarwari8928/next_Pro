@@ -4,8 +4,8 @@ function getRnum( num:number){
     return Math.floor(Math.random()*num)
 }
 function page() {
-   const Rnum= getRnum(3);
-   if(Rnum<2){
+   const Rondomnum= getRnum(3);
+   if(Rondomnum<2){
     throw new Error("NOT FOUND");
    }
   return (
