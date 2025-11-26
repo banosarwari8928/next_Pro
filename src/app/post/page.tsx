@@ -9,7 +9,7 @@ function page() {
     throw new Error("NOT FOUND");
    }
   return (
-    <div className='text-2xl p-4 bg-red-800 h-fit w-fit'>This is Post page  </div>
+    <div className='text-2xl p-4 bg-gray-300 m-8 rounded-md justify-center items-center h-fit w-fit'>This is Post page  </div>
   )
 }
 
